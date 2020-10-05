@@ -19,8 +19,9 @@ function initMap() {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
         };
+        alert(pos.lat  + " " +  pos.lng);
         infoWindow.setPosition(pos);
-        infoWindow.setContent("Location found.");
+        infoWindow.setContent("Edw briskesai re karagiozi.");
         infoWindow.open(map);
         map.setCenter(pos);
       },
